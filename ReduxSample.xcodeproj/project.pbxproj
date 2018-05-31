@@ -12,6 +12,7 @@
 		E5E2836E20C022AB007CD612 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E2836C20C022AB007CD612 /* Main.storyboard */; };
 		E5E2837020C022AD007CD612 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E2836F20C022AD007CD612 /* Assets.xcassets */; };
 		E5E2837320C022AD007CD612 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5E2837120C022AD007CD612 /* LaunchScreen.storyboard */; };
+		E5E2837C20C022C3007CD612 /* Redux.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E2837B20C022C3007CD612 /* Redux.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E5E2836F20C022AD007CD612 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E5E2837220C022AD007CD612 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E5E2837420C022AD007CD612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5E2837B20C022C3007CD612 /* Redux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Redux.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		E5E2835C20C022AB007CD612 = {
 			isa = PBXGroup;
 			children = (
+				E5E2837A20C022B3007CD612 /* Redux Core */,
 				E5E2836720C022AB007CD612 /* ReduxSample */,
 				E5E2836620C022AB007CD612 /* Products */,
 			);
@@ -62,6 +65,14 @@
 				E5E2837420C022AD007CD612 /* Info.plist */,
 			);
 			path = ReduxSample;
+			sourceTree = "<group>";
+		};
+		E5E2837A20C022B3007CD612 /* Redux Core */ = {
+			isa = PBXGroup;
+			children = (
+				E5E2837B20C022C3007CD612 /* Redux.swift */,
+			);
+			path = "Redux Core";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				E5E2836B20C022AB007CD612 /* ViewController.swift in Sources */,
 				E5E2836920C022AB007CD612 /* AppDelegate.swift in Sources */,
+				E5E2837C20C022C3007CD612 /* Redux.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
